@@ -33,8 +33,8 @@ for key, value in result_dict.items():
 conn = pymysql.connect(
     host='localhost',
     user='root',
-    password='moneyghost',
-    database='phalabase'
+    password='********',
+    database='********'
 )
 cursor = conn.cursor()
 
