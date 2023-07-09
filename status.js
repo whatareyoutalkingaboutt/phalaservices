@@ -13,8 +13,8 @@ async function main() {
     const connection = await mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'moneyghost',
-        database: 'phalabase'
+        password: '*****',
+        database: '******'
     });
 
     const [rows] = await connection.execute('SELECT minerAccountId FROM workers');
